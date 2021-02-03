@@ -28,6 +28,19 @@ Yeah, yeah, there were tutorials and articles on hosting static files, but, that
 
         Profit?
 
+## Where to place assets?
+
+Place the assets in the `public` directory. 
+There are subfolders to choose from.
+
+Suppose you save a `main.css` file in `public/css` directory.
+In short, your file path is `public/css/main.css`, then you can access it
+via the below url:
+
+    http://localhost:23657/css/main.css
+
+Simple isn't it?
+
 ## LEGAL, LICENSE, yada, yada...
 
 I just made this for myself, hoping that I don't have to redo everything, whenever I wanted a simple cdn.
